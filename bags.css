@@ -1,0 +1,150 @@
+.blog-con {
+    /* background-color: red; */
+    max-width: 75%;
+    padding: 1rem;
+    margin: auto;
+}
+
+.addYourProducts {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.detail-box-js {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    /* border: 1px solid rgb(212, 201, 201); */
+}
+
+.detail-box-js img {
+    display: flex;
+    width: 17%;
+    height: 27%;
+}
+
+
+.total_Mrp,
+.MRP_Discount,
+.first {
+    display: flex;
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.Convensen_fee {
+    display: flex;
+    gap: 6rem;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+
+}
+
+.heading {
+    font-weight: bolder;
+}
+
+.name-box-js {
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+.mainPart {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.4rem 2rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(43, 221, 43);
+
+}
+
+.place-btn:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.5s;
+}
+
+
+.simpletext {
+    
+    padding: 0.5rem;
+    width: 65%;
+}
+
+.cantainer-js {
+    width: 100%;
+}
+
+.listProductBags{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+}
+
+
+
+@media screen and (max-width: 920px) {
+    .detail-box-js {
+        display: flex;
+        gap: 1rem;
+        width: 70%;
+        font-size: 8px;
+    }
+
+    .addYourProducts {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .detail-box-js img {
+        display: flex;
+        width: 40%;
+    }
+
+    .productsSummury {
+        font-size: 10px;
+    }
+    .listProductBags{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 650px) {
+    .blog-con {
+        max-width: 90%;
+        padding: 1rem;
+        margin: auto;
+    }
+
+    .detail-box-js img {
+        display: flex;
+        width: 60%;
+        height: 50%;
+    }
+
+    #de-btn {
+        height: 1rem;
+        width: 2.5rem;
+        font-size: 5px;
+        margin-left: 4rem;
+    }
+    .mainPart {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}

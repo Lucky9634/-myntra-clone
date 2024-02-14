@@ -1,0 +1,147 @@
+@media screen and (max-width: 650px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    #sidebar {
+        display: flex;
+        font-size: 1.4rem;
+    }
+
+    .textLogo {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .searvh-top {
+        display: none;
+    }
+
+    .sidebar-left {
+        width: 40%;
+    }
+
+    .pro-title {
+        font-size: 0.7rem;
+    }
+
+    .first-footer {
+        max-width: 85vw;
+    }
+
+    .last-footer {
+        font-size: 0.7rem;
+    }
+
+    .detail {
+        flex-direction: column;
+    }
+
+    .Top-icon {
+
+        margin-top: 12px;
+    }
+
+    .bag-item {
+        bottom: 80%;
+        left: 40%;
+    }
+
+    .counttodata {
+        margin: 6px;
+    }
+
+    .planeCon {
+        margin-top: -7px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 1020px) {
+    .nav {
+        font-size: 1rem;
+    }
+
+    .top-list {
+        font-size: 12px;
+        padding: 0rem 0.6rem;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 50px;
+    }
+
+    .bag-item {
+        bottom: 85%;
+        left: 40%;
+    }
+    .name-box {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .nav {
+        font-size: 0.6rem;
+    }
+
+    .top-list {
+        font-size: 8px;
+        padding: 0rem 1rem;
+    }
+
+    .searvh-top input {
+        padding: 0.4rem 2rem;
+        width: 25vw;
+        font-size: 1rem;
+        margin-top: 1%;
+    }
+
+    .fa-magnifying-glass {
+        left: 3%;
+        top: 20%;
+        font-size: 1rem;
+    }
+
+    .fa-arrow-right {
+        top: 19%;
+        right: 8%;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 45px;
+    }
+
+    .productImg {
+        width: 100%;
+    }
+
+    .listProduct {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .listProductDetail {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .bag-item {
+        bottom: 74%;
+        left: 10%;
+    }
+}
