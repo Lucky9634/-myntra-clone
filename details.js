@@ -78,9 +78,9 @@ function onload(){
 
 function addToBag(productId){
     bagProducts.push(productId)
-    alert("Add Your Product SuccessFull !")
     localStorage.setItem('bagProducts', JSON.stringify(bagProducts));
     showProductBag()
+    alert("Add Your Product SuccessFull !")
 }
 function showProductBag(){
     let bagIcon = document.querySelector('.bag-item');
